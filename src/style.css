@@ -49,12 +49,26 @@ body {
     color: var(--bright-orange);
 }
 
+.card:nth-child(1) > button:hover {
+    background-color: var(--bright-orange);
+    color: var(--transparent-white);
+    border: 2px solid var(--transparent-white);
+    cursor: pointer;
+}
+
 .card:nth-child(2) {
     background-color: var(--dark-cyan);
 }
 
 .card:nth-child(2) > button {
     color: var(--dark-cyan);
+}
+
+.card:nth-child(2) > button:hover {
+    background-color: var(--dark-cyan);
+    color: var(--transparent-white);
+    border: 2px solid var(--transparent-white);
+    cursor: pointer;
 }
 
 .card:nth-child(3) {
@@ -64,6 +78,13 @@ body {
 
 .card:nth-child(3) > button {
     color: var(--very-dark-cyan);
+}
+
+.card:nth-child(3) > button:hover {
+    background-color: var(--very-dark-cyan);
+    color: var(--transparent-white);
+    border: 2px solid var(--transparent-white);
+    cursor: pointer;
 }
 
 .card-title {
